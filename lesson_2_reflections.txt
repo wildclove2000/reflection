@@ -1,0 +1,27 @@
+-what happens when you initialize a repository? Why do you need to do it?
+Initializing a repository means to create an empty repository after which we can make commits of our files that we want to keep track of .
+
+-How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is an area between the working directory and the repository and it allows you to commit only the parts of your working directory that you want to track in the repository. 
+
+-How can you use the staging area to make sure you have one commit per logical change?
+Each time you have logical changes you can add files to the staging area.Then you can compare the files in the staging area to those in the working directory 
+and the most recent commit. This way you make sure you have one logical change before  making commits. 
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+ When you are fixing bugs or adding an experimental feature, It's better to do on new branches to keep your software working.after fixing bugs or adding new features are done you can merege the branch with master branch.
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+How do the diagrams help you visualize the branch structure?
+
+The diagram helps you to better visualize the structure of the whole project.It cleary shows which branches we have and 
+which commits refere to which branch and also shows the parents of commits. 
+  
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All the commits from both branches merge into one branch, 
+and the resluting branch will have two parents. 
+we represent it in the diagram, because this way we can easily see the merged commits reffer to which  two parents.
+
+-What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros:It saves your time because doing everything manually is very time-consuming .
+but the downside is, in some cases it can produce new bugs and mistakes when automatically merging two branches. 
